@@ -14,7 +14,7 @@ export default function Layout(props) {
             <h2>Read-layout</h2>
             {props.children}
             <h3>parameters : {props.params.id}</h3>
-            <h3>msg</h3>
+            <h3>{msg}</h3>
             <h3>parameters : {props.params.id === '1' ? "HTML 선택" : props.params.id === '2' ? "CSS 선택" : "JS 선택"}</h3>
         </>
     )

@@ -17,6 +17,9 @@ export default function RootLayout({ children }) {
             <li><Link href="/read/1">HTML</Link></li>
             <li><Link href="/read/2">CSS</Link></li>
             <li><Link href="/read/3">JS</Link></li>
+            <li><Link href="/itemList">itemList(외부서버)</Link></li>
+            <li><Link href="/guestBookList">guestBookList(SpringBoot 서버)</Link></li>
+            <li><Link href="/memberList">memberList(SpringBoot 서버)</Link></li>
           </ol>
         {children}
         <ul>
